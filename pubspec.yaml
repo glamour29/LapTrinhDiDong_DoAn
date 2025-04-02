@@ -87,7 +87,6 @@ flutter:
     - assets/images/
     - assets/flags/
     - assets/themes/
-
 flutter_intl:
   enabled: true
   arb_dir: lib/core/strings/l10n
