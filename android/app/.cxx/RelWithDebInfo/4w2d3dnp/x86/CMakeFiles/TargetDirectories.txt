@@ -1,0 +1,2 @@
+D:/Flutter_Projects/calc_pro/android/app/.cxx/RelWithDebInfo/4w2d3dnp/x86/CMakeFiles/edit_cache.dir
+D:/Flutter_Projects/calc_pro/android/app/.cxx/RelWithDebInfo/4w2d3dnp/x86/CMakeFiles/rebuild_cache.dir

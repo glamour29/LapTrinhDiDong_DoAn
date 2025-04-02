@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "598481581544",
+    "project_id": "calculator-ec128",
+    "storage_bucket": "calculator-ec128.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598481581544:android:fc5dea9a42a7862acb605d",
+        "android_client_info": {
+          "package_name": "com.mxgk.calc_pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598481581544-mmcj4scnhd30vs587vf79c2e30sb521b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mxgk.calc_pro",
+            "certificate_hash": "68d24c5bf9c54e07e94224b60ae3e8781e9f3cf5"
+          }
+        },
+        {
+          "client_id": "598481581544-e8kp4gvvdsjcvcamgil4p1qg352ic1m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlh-cX0J_c0SRG1o5teFpout8SX3Tiz-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598481581544-e8kp4gvvdsjcvcamgil4p1qg352ic1m3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,100 @@
+name: calc_pro
+description: "Smart, Powerful, and Convenient Calculator!"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 3.1.3+12
+
+environment:
+  sdk: ^3.6.2
+
+isar_version: &isar_version 3.1.0+1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
+  expressions: ^0.2.5+2
+  get_it: ^8.0.3
+  intl: ^0.20.2
+  iap_quick: ^0.0.11
+  isar: *isar_version
+  isar_flutter_libs: *isar_version
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.2
+  flutter_ads_plugin: ^0.2.3
+  auto_size_text_field: ^2.2.4
+  flutter_screenutil: ^5.9.3
+  simple_gradient_text: ^1.3.0
+  shimmer: ^3.0.0
+  lottie: ^3.3.1
+  super_tooltip: ^2.0.9
+  in_app_update: ^4.2.3
+  font_awesome_flutter: ^10.8.0
+  url_launcher: ^6.3.1
+  share_plus: ^10.1.4
+  camera: ^0.10.6
+  image_picker: ^1.1.2
+  integral_isolates: ^0.5.1
+  google_vision: ^2.0.0+5
+  image: ^4.5.3
+  toggle_switch: ^2.3.0
+  translator: ^1.0.3+1
+  qr_code_scanner_plus: ^2.0.10+1
+  file_picker: ^9.0.2
+  flutter_pdfview: ^1.4.0
+  advanced_in_app_review: ^1.3.0
+  qr_flutter: ^4.1.0
+  gradient_elevated_button: ^1.0.10
+  image_gallery_saver_plus: ^4.0.1
+  permission_handler: ^11.4.0
+  device_info_plus: ^11.3.3
+  cherry_toast: ^1.12.0
+  barcode_widget: ^2.0.4
+  dropdown_button2: ^2.3.9
+  docx_viewer: ^0.2.1
+  fire_auth_quick: ^0.0.9
+  firebase_core: ^3.13.0
+  cloud_firestore: ^5.6.6
+
+
+
+dependency_overrides:
+  intl: ^0.19.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  isar_generator: *isar_version
+  build_runner: any
+  arb_translate: ^1.1.0
+  flutter_launcher_icons: ^0.14.3
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/images/
+    - assets/flags/
+    - assets/themes/
+
+flutter_intl:
+  enabled: true
+  arb_dir: lib/core/strings/l10n
+  output_dir: lib/core/strings/generated
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
