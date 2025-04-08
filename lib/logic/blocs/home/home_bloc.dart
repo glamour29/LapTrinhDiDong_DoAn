@@ -553,7 +553,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   void _openGmail(OpenGmailEvent event, Emitter<HomeState> emit) async {
     final Uri emailLaunchUri = Uri(
       scheme: 'mailto',
-      path: 'minhto28.dev@gmail.com',
+      path: 'duylt0022@ut.edu.vn',
       query: _encodeQueryParameters(<String, String>{
         'subject': 'Reporting a Bug CalcPro App!',
       }),
