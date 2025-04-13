@@ -1,6 +1,7 @@
 # calc_pro
 
 Smart, Powerful, and Convenient Calculator!
+
 figma: https://www.figma.com/design/gVkD6z3XGXsXFFNLhmkmrt/m%C3%A1y-t%C3%ADnh-th%C3%B4ng-minh?node-id=0-1&t=CEOC6G1ip1ikA0QW-1
 
 ## Getting Started
